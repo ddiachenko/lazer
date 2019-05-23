@@ -155,3 +155,47 @@ footer a:hover {
     width: 1170px;
   }
 }
+
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 990px) {
+    h1 {
+        font-size: 30px;
+    }
+    .main-logo {
+        width: 80%;
+    }
+}
+@media (max-width: 425px) {
+    header {
+        margin-top: 60px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h1:before {
+        height: 2px;
+        top: -15px;
+    }
+    h1:after {
+        height: 2px;
+        bottom: -15px;
+    }
+    footer {
+        padding: 5px 0 5px;
+        border-top: 2px solid #fff;
+    }
+    footer img {
+        width: 50px;
+    }
+    footer img.facebook-logo {
+        width: 40px;
+    }
+    .main-logo {
+        width: 100%;
+    }
+}
